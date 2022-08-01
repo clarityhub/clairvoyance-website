@@ -1,0 +1,150 @@
+$about__breakpoint--mobile:  856px;
+
+.about__heading {
+  $pattern: url('https://images.unsplash.com/photo-1496858705185-1f25b056e4a7?auto=format&fit=crop&w=2250&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
+
+  // Fallback
+  background-color: #5B4A40;
+  background-image: $pattern;
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 51px;
+  padding-top: 51px + 105px;
+
+  @media (max-width: $features__breakpoint--mobile) {
+    padding-bottom: 21px;
+    padding-top: 51px + 21px;
+  }
+
+  h1 {
+    @extend %clair-heading;
+
+    color: $clair-light;
+    font-size: rem(60px);
+    text-align: center;
+
+    @media (max-width: $features__breakpoint--mobile) {
+      font-size: rem(50px);
+      margin-bottom: 20px;
+    }
+  }
+
+  h2 {
+    @extend %clair-heading-secondary;
+    
+    color: #EFEFEF;
+    font-size: rem(22px);
+    font-weight: 300;
+    line-height: rem(26px);
+    margin: 40px auto;
+    max-width: 520px;
+    text-align: center;
+    opacity: 0.9;
+
+    @media (max-width: $features__breakpoint--mobile) {
+      margin-top: 0;
+      padding: 0 20px;
+    }
+  }
+}
+
+.about {
+  margin: 0 auto;
+  max-width: 860px;
+  padding: 30px;
+
+  h2 {
+    @extend %clair-heading;
+
+    color: $clair-coal;
+    font-size: rem(36px);
+    line-height: rem(48px);
+    margin-top: 17px;
+    padding-bottom: 20px;
+    text-align: left;
+
+    @media (max-width: $features__breakpoint--mobile) {
+      @include font-size(24px);
+
+      text-align: center;
+    }
+  }
+
+  p {
+    line-height: rem(20px);
+  }
+
+  p + p {
+    padding-top: 20px;
+  }
+}
+
+
+// ============
+// About: Happy
+// ============
+.about__happy {
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+  h2 {
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+}
+
+.about__happy__section {
+  display: flex;
+  margin: 40px auto 0;
+  max-width: $features__breakpoint--tablet;
+  padding: 0 20px;
+}
+
+// ===========
+// About: Team
+// ===========
+.about__team {
+  margin: 0 auto;
+  max-width: 600px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+  h2 {
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+}
+
+.about__team__section {
+  display: flex;
+  margin-bottom: rem(25px);
+
+  h4 {
+    font-size: rem(20px);
+    line-height: rem(24px);
+    padding-bottom: rem(10px);
+  }
+
+  p {
+    font-size: rem(16px);
+    line-height: rem(22px);
+  }
+}
+
+.about__team__portrait {
+  margin-right: 40px;
+  width: 150px;
+
+  img {
+    border-radius: 50%;
+    max-width: 150px;
+    padding: 20px 0;
+  }
+}
+
+.about__team__bio {
+  align-self: center;
+  flex: 1;
+}

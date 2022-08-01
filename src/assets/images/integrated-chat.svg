@@ -1,0 +1,55 @@
+
+<svg width="598px" height="487px" viewBox="0 0 598 487" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="13" y="13" width="572" height="461" rx="5"></rect>
+        <filter x="-1.2%" y="-1.1%" width="102.4%" height="103.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.499388818   0 0 0 0 0.499388818   0 0 0 0 0.499388818  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="integrated-chat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="v6">
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <path d="M18,13 L580,13 L580,13 C582.761424,13 585,15.2385763 585,18 L585,49 L13,49 L13,18 L13,18 C13,15.2385763 15.2385763,13 18,13 Z" id="Rectangle-2" fill="#EEEEEE"></path>
+            <g id="Group-2" transform="translate(519.000000, 24.000000)">
+                <circle id="Oval" fill="#FF4443" cx="6.5" cy="7.5" r="6.5"></circle>
+                <circle id="Oval" fill="#FFBE00" cx="27.5" cy="7.5" r="6.5"></circle>
+                <circle id="Oval" fill="#00D544" cx="48.5" cy="6.5" r="6.5"></circle>
+            </g>
+            <g id="Group-3" transform="translate(196.000000, 211.000000)">
+                <g id="integrated-chat">
+                    <rect id="chat-bubble" fill="#D9D9D9" x="0" y="0" width="328" height="202" rx="12"></rect>
+                    <rect id="user1-text" fill="#FFFFFF" x="88" y="35" width="211" height="44" rx="22"></rect>
+                    <rect id="user1-text" fill="#FFFFFF" x="30" y="118" width="211" height="44" rx="22"></rect>
+                    <circle id="user1-icon" fill="#DD2476" cx="52" cy="57" r="22"></circle>
+                    <circle id="user1-icon" fill="#DD2476" cx="277" cy="140" r="22"></circle>
+                    <g id="Group" transform="translate(289.000000, 163.000000)">
+                        <circle id="Oval" fill="#FF9782" cx="39.5" cy="39.5" r="39.5"></circle>
+                        <g id="chat-icon" transform="translate(22.000000, 22.000000)" stroke="#FFFFFF" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                            <g id="chaticon">
+                                <path d="M33.9999462,16.055584 C34.0064463,18.5486637 33.4239661,21.0080248 32.2999489,23.2333504 C29.5817649,28.672072 24.024565,32.1087614 17.944416,32.1111141 C15.4513363,32.1176142 12.9919752,31.535134 10.7666496,30.4111168 L0,34 L3.58888321,23.2333504 C2.46486603,21.0080248 1.88238577,18.5486637 1.8888859,16.055584 C1.89123862,9.97543495 5.32792798,4.41823513 10.7666496,1.70005112 C12.9919752,0.576033942 15.4513363,-0.006446322 17.944416,5.38107745e-05 L18.888859,5.38107744e-05 C27.0409306,0.44979696 33.550203,6.95906944 33.9999462,15.111141 C33.9999462,15.3944739 33.9999462,15.7344734 33.9999462,16.055584 Z" id="Shape" stroke-width="3" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-2" transform="translate(107.000000, 50.000000)" fill="#D8D8D8">
+                    <rect id="Rectangle-3" x="0" y="0" width="47" height="14" rx="1"></rect>
+                    <rect id="Rectangle-3" x="119" y="0" width="47" height="14" rx="1"></rect>
+                    <rect id="Rectangle-3" x="78" y="0" width="32" height="14" rx="1"></rect>
+                    <rect id="Rectangle-3" x="56" y="0" width="13" height="14" rx="1"></rect>
+                </g>
+                <g id="Group-2" transform="translate(48.000000, 133.000000)" fill="#D8D8D8">
+                    <rect id="Rectangle-3" x="0" y="0" width="19" height="14" rx="1"></rect>
+                    <rect id="Rectangle-3" x="28" y="0" width="47" height="14" rx="1"></rect>
+                    <rect id="Rectangle-3" x="84" y="0" width="66" height="14" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,111 @@
+{% assign current = page.url | downcase | split: '/' %}
+
+{% include header-mobile.html %}
+
+<div class="home__header home__header--hidden">
+  <div class="home__header__mobile">
+    <div class="logo">
+      {% include _inline-logo.html %}
+    </div>
+    <span>Clarity Hub</span>
+
+    <button class="menu" id="header-menu">
+      {% include svgs/_menu.svg %}
+    </button>
+  </div>
+  <div class="home__header__desktop">
+    <div class="home__header__container">
+      <ul>
+        <li {% if current[1]=='' %}class='home__header--active' {% endif %}>
+          <a class="home__header__link" href="/">Home</a>
+        </li>
+        <li {% if current[1] == 'features' %}class='home__header--active'{% endif %}>
+          <a class="home__header__link" href="/features/">Features</a>
+        </li>
+        
+        <li {% if current[1] == 'about' %}class='home__header--active'{% endif %}>
+          <a class="home__header__link" href="/about/">About</a>
+        </li>
+      </ul>
+
+      <div class="logo">
+        {% include _inline-logo.html %}
+      </div>
+
+      <ul>
+        <!-- <li {% if current[1] == 'contact' %}class='home__header--active'{% endif %}>
+          <a class="home__header__link" href="/contact/">Contact</a>
+        </li> -->
+        <li {% if current[1] == 'pricing' %}class='home__header--active'{% endif %}>
+          <a class="home__header__link" href="/pricing/">Pricing</a>
+        </li>
+        <li {% if current[1] == 'login' %}class='home__header--active'{% endif %}>
+          <a class="home__header__link" href="{{ site.login_base }}/">Login</a>
+        </li>
+        <li {% if current[1] == 'register' %}class='home__header--active'{% endif %}>
+          <a class="home__header__link" href="/register/">Try for Free</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<noscript>
+  <style>
+    .home__header--hidden {
+      display: block !important;
+    }
+  </style>
+</noscript>
+
+<script>
+function setupFadeHeader () {
+  var className = 'home__header--expanded',
+      header = document.querySelector('.home__header'),
+      shrinkOn = 20;
+
+  function addClass(e, c) {
+    if (e.classList)
+      e.classList.add(c);
+    else
+      e.className += ' ' + c;
+  }
+
+  function hasClass(e, c) {
+    if (e.classList)
+      return e.classList.contains(c);
+    else
+      return new RegExp('(^| )' + c + '( |$)', 'gi').test(e.className);
+  }
+
+  function removeClass(e, c) {
+    if (e.classList)
+      e.classList.remove(c);
+    else
+      e.className = e.className.replace(new RegExp('(^|\\b)' + c.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+  }
+
+  function onScroll(e) {
+    var y = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (y > shrinkOn) {
+      if (hasClass(header, className)) {
+        removeClass(header, className);
+      }
+    } else {
+      addClass(header, className);
+    }
+  }
+
+  function makeTransitionable() {
+    addClass(header, 'home__header--transitionable');
+  }
+
+  window.addEventListener('scroll', onScroll);
+  onScroll();
+  setTimeout(makeTransitionable, 30);
+  removeClass(header, 'home__header--hidden');
+}
+
+setupFadeHeader();
+</script>

@@ -1,0 +1,53 @@
+{% assign current = page.url | downcase | split: '/' %}
+
+{% include header-mobile.html %}
+
+<div class="header__header">
+  <div class="header__header__mobile">
+    <div class="logo">
+      {% include _inline-logo.html %}
+    </div>
+    <span>Clarity Hub</span>
+
+    <button class="menu" id="header-menu">
+      {% include svgs/_menu.svg %}
+    </button>
+  </div>
+  <div class="header__header__desktop">
+    <div class="header__header__container">
+      <ul>
+        <li {% if current[1]=='' %}class='header__header--active' {% endif %}>
+          <a class="header__header__link" href="/">Home</a>
+        </li>
+        <li {% if current[1] == 'features' %}class='header__header--active'{% endif %}>
+          <a class="header__header__link" href="/features/">Features</a>
+        </li>
+        
+        <li {% if current[1] == 'about' %}class='header__header--active'{% endif %}>
+          <a class="header__header__link" href="/about/">About</a>
+        </li>
+      </ul>
+
+      <div class="logo">
+        <a href="/">
+          {% include _inline-logo.html %}
+        </a>
+      </div>
+
+      <ul>
+        <!-- <li {% if current[1] == 'contact' %}class='header__header--active'{% endif %}>
+          <a class="header__header__link" href="/contact/">Contact</a>
+        </li> -->
+        <li {% if current[1] == 'pricing' %}class='header__header--active'{% endif %}>
+          <a class="header__header__link" href="/pricing/">Pricing</a>
+        </li>
+        <li {% if current[1] == 'login' %}class='header__header--active'{% endif %}>
+          <a class="header__header__link" href="{{ site.login_base }}/">Login</a>
+        </li>
+        <li {% if current[1] == 'register' %}class='header__header--active'{% endif %}>
+          <a class="header__header__link" href="/register/">Try for Free</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

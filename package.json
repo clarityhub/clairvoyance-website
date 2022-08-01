@@ -1,0 +1,13 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "The design repo for all your scss needs",
+  "main": "index.js",
+  "repository": "git@gitlab.com:clairvoyance/website.git",
+  "author": "Ivan Montiel <idmontie@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "design": "git+ssh://gitlab.com:clairvoyance/design.git"
+  }
+}

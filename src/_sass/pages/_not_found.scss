@@ -1,0 +1,27 @@
+.not-found {
+  height: calc(100vh - (50px + 304px));
+  margin: 0 auto;
+  max-width: 860px;
+  min-height: 375px;
+  padding: 30px;
+
+  p {
+    line-height: rem(20px);
+  }
+
+  p + p {
+    padding-top: 20px;
+  }
+}
+
+.not-found__heading {
+  color: $clair-dark;
+  display: block;
+  font-size: rem(32px);
+  line-height: rem(38px);
+  margin-top: 48px;
+  padding-bottom: 48px;
+  padding-top: 34px;
+  text-align: center;
+  vertical-align: top;
+}

@@ -1,0 +1,52 @@
+
+<svg width="598px" height="487px" viewBox="0 0 598 487" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="572" height="461" rx="5"></rect>
+        <filter x="-1.2%" y="-1.1%" width="102.4%" height="103.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.499388818   0 0 0 0 0.499388818   0 0 0 0 0.499388818  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="know-what-user-is-typing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-7">
+            <g id="Group" transform="translate(13.000000, 13.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M5,0 L567,0 L567,0 C569.761424,-5.07265313e-16 572,2.23857625 572,5 L572,36 L0,36 L0,5 L0,5 C-3.38176876e-16,2.23857625 2.23857625,5.07265313e-16 5,0 Z" id="Rectangle-2" fill="#EEEEEE"></path>
+                <g id="Group-2" transform="translate(506.000000, 11.000000)">
+                    <circle id="Oval" fill="#FF4443" cx="6.5" cy="7.5" r="6.5"></circle>
+                    <circle id="Oval" fill="#FFBE00" cx="27.5" cy="7.5" r="6.5"></circle>
+                    <circle id="Oval" fill="#00D544" cx="48.5" cy="6.5" r="6.5"></circle>
+                </g>
+            </g>
+            <g id="Group-3" transform="translate(123.000000, 119.000000)">
+                <rect id="user1-text" fill="#FFFFFF" x="58" y="0" width="294" height="44" rx="22"></rect>
+                <rect id="user1-text" fill="#EBEBEB" x="58" y="0" width="294" height="44" rx="22"></rect>
+                <rect id="user1-text" fill="#EBEBEB" x="0" y="248" width="294" height="44" rx="22"></rect>
+                <circle id="user1-icon" fill="#DD2476" cx="22" cy="22" r="22"></circle>
+                <circle id="user1-icon" fill="#FF9782" cx="330" cy="270" r="22"></circle>
+                <g id="text" transform="translate(83.000000, 15.000000)" fill="#C9C9C9">
+                    <rect id="word1" x="0" y="0" width="65" height="14" rx="1"></rect>
+                    <rect id="word2" x="74" y="0" width="25" height="14" rx="1"></rect>
+                    <rect id="word3" x="108" y="0" width="99" height="14" rx="1"></rect>
+                    <rect id="word4" x="216" y="0" width="13" height="14" rx="1"></rect>
+                </g>
+                <g id="text" transform="translate(83.000000, 70.000000)" fill="#EBEBEB">
+                    <rect id="word1" x="79" y="0" width="99" height="14" rx="1"></rect>
+                    <rect id="word2" x="22" y="0" width="48" height="14" rx="1"></rect>
+                    <rect id="word4" x="0" y="0" width="13" height="14" rx="1"></rect>
+                </g>
+            </g>
+            <g id="Group-2" transform="translate(393.000000, 190.000000)">
+                <ellipse id="Oval" fill="#C9C9C9" cx="5.11607143" cy="5.89285714" rx="5.11607143" ry="5.10714286"></ellipse>
+                <ellipse id="Oval" fill="#D6D6D6" cx="21.6449176" cy="5.89285714" rx="5.11607143" ry="5.10714286"></ellipse>
+                <ellipse id="Oval" fill="#E3E3E3" cx="38.1737637" cy="5.10714286" rx="5.11607143" ry="5.10714286"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

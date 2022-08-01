@@ -1,0 +1,104 @@
+
+<svg width="598px" height="487px" viewBox="0 0 598 487" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="572" height="461" rx="5"></rect>
+        <filter x="-1.2%" y="-1.1%" width="102.4%" height="103.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.499388818   0 0 0 0 0.499388818   0 0 0 0 0.499388818  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M22,0 L331,0 L331,1.17239551e-13 C343.150264,5.02579677e-14 353,9.8497355 353,22 L353,41 L353,41 C353,42.6568542 351.656854,44 350,44 L1,44 L1,44 C0.44771525,44 6.76353751e-17,43.5522847 0,43 L0,22 L0,22 C-1.48797825e-15,9.8497355 9.8497355,2.23196738e-15 22,0 Z" id="path-3"></path>
+        <rect id="path-4" x="0" y="53" width="353" height="44" rx="4"></rect>
+        <path d="M3,106 L351,106 L351,106 C352.104569,106 353,106.895431 353,108 L353,128 L353,128 C353,140.150264 343.150264,150 331,150 L22,150 L22,150 C9.8497355,150 1.48797825e-15,140.150264 0,128 L0,109 L8.8817842e-16,109 C6.85272294e-16,107.343146 1.34314575,106 3,106 Z" id="path-5"></path>
+    </defs>
+    <g id="suggested-answers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="v12">
+            <g id="Group" transform="translate(13.000000, 13.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M5,0 L567,0 L567,0 C569.761424,-5.07265313e-16 572,2.23857625 572,5 L572,36 L0,36 L0,5 L0,5 C-3.38176876e-16,2.23857625 2.23857625,5.07265313e-16 5,0 Z" id="Rectangle-2" fill="#EEEEEE"></path>
+                <g id="Group-2" transform="translate(506.000000, 11.000000)">
+                    <circle id="Oval" fill="#FF4443" cx="6.5" cy="7.5" r="6.5"></circle>
+                    <circle id="Oval" fill="#FFBE00" cx="27.5" cy="7.5" r="6.5"></circle>
+                    <circle id="Oval" fill="#00D544" cx="48.5" cy="6.5" r="6.5"></circle>
+                </g>
+            </g>
+            <g id="Group-3" transform="translate(123.000000, 116.000000)">
+                <polygon id="suggestion1" fill="#F7F7F7" points="59 161 154.525062 161 154.525062 165.999931 154.525062 170.999863 59 170.999863"></polygon>
+                <polygon id="suggestion1" fill="#F7F7F7" points="59 201 134 201 134 205.999931 134 210.999863 59 210.999863"></polygon>
+                <rect id="user1-text" fill="#FFFFFF" x="58" y="0" width="294" height="44" rx="22"></rect>
+                <rect id="user1-text" fill="#EBEBEB" x="58" y="0" width="294" height="44" rx="22"></rect>
+                <rect id="user1-text" fill="#EBEBEB" x="0" y="248" width="294" height="44" rx="22"></rect>
+                <circle id="user1-icon" fill="#DD2476" cx="22" cy="22" r="22"></circle>
+                <circle id="user1-icon" fill="#FF9782" cx="330" cy="270" r="22"></circle>
+                <g id="suggested" transform="translate(0.000000, 70.000000)">
+                    <g id="user1-text">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <path stroke-opacity="0.6" stroke="#FF512F" stroke-width="1" d="M22,0.5 C10.1258779,0.5 0.5,10.1258779 0.5,22 L0.5,43 C0.5,43.2761424 0.723857625,43.5 1,43.5 L350,43.5 C351.380712,43.5 352.5,42.3807119 352.5,41 L352.5,22 C352.5,10.1258779 342.874122,0.5 331,0.5 L22,0.5 Z"></path>
+                    </g>
+                    <g id="user1-text">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <rect stroke-opacity="0.6" stroke="#FF512F" stroke-width="1" x="0.5" y="53.5" width="352" height="43" rx="4"></rect>
+                    </g>
+                    <g id="user1-text">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <path stroke-opacity="0.6" stroke="#FF512F" stroke-width="1" d="M3,106.5 C1.61928813,106.5 0.5,107.619288 0.5,109 L0.5,128 C0.5,139.874122 10.1258779,149.5 22,149.5 L331,149.5 C342.874122,149.5 352.5,139.874122 352.5,128 L352.5,108 C352.5,107.171573 351.828427,106.5 351,106.5 L3,106.5 Z"></path>
+                    </g>
+                    <g id="suggested-text" transform="translate(22.000000, 16.000000)" fill="#FF9782">
+                        <rect id="Rectangle-3" x="0" y="0" width="75" height="14" rx="1"></rect>
+                        <rect id="Rectangle-3" x="65" y="104" width="75" height="14" rx="1"></rect>
+                        <rect id="Rectangle-3" x="56" y="52" width="29" height="14" rx="1"></rect>
+                        <rect id="Rectangle-3" x="116" y="52" width="29" height="14" rx="1"></rect>
+                        <rect id="Rectangle-3" x="84" y="0" width="47" height="14" rx="1"></rect>
+                        <rect id="Rectangle-3" x="0" y="52" width="47" height="14" rx="1"></rect>
+                        <rect id="Rectangle-3" x="94" y="52" width="13" height="14" rx="1"></rect>
+                        <rect id="Rectangle-3" x="27" y="104" width="29" height="14" rx="1"></rect>
+                        <rect id="Rectangle-3" x="0" y="104" width="18" height="14" rx="1"></rect>
+                    </g>
+                    <g id="suggested-icons" transform="translate(248.000000, 13.000000)" font-size="20" font-family="FontAwesome" fill="#FF9782" font-weight="normal">
+                        <text id="thumbs-down---FontAwesome">
+                            <tspan x="0" y="17"></tspan>
+                        </text>
+                        <text id="paper-plane---FontAwesome">
+                            <tspan x="67" y="17"></tspan>
+                        </text>
+                        <text id="pencil---FontAwesome">
+                            <tspan x="36" y="17"></tspan>
+                        </text>
+                    </g>
+                    <g id="suggested-icons2" transform="translate(248.000000, 65.000000)" font-size="20" font-family="FontAwesome" fill="#FF9782" font-weight="normal">
+                        <text id="thumbs-down---FontAwesome">
+                            <tspan x="0" y="17"></tspan>
+                        </text>
+                        <text id="paper-plane---FontAwesome">
+                            <tspan x="67" y="17"></tspan>
+                        </text>
+                        <text id="pencil---FontAwesome">
+                            <tspan x="36" y="17"></tspan>
+                        </text>
+                    </g>
+                    <g id="suggested-icons-3" transform="translate(248.000000, 117.000000)" font-size="20" font-family="FontAwesome" fill="#FF9782" font-weight="normal">
+                        <text id="thumbs-down---FontAwesome">
+                            <tspan x="0" y="17"></tspan>
+                        </text>
+                        <text id="paper-plane---FontAwesome">
+                            <tspan x="67" y="17"></tspan>
+                        </text>
+                        <text id="pencil---FontAwesome">
+                            <tspan x="36" y="17"></tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Group-2" transform="translate(83.000000, 15.000000)"></g>
+                <rect id="Rectangle-3" fill="#C9C9C9" x="83" y="15" width="47" height="14" rx="1"></rect>
+                <rect id="Rectangle-3" fill="#C9C9C9" x="188" y="15" width="87" height="14" rx="1"></rect>
+                <rect id="Rectangle-3" fill="#C9C9C9" x="169" y="15" width="11" height="14" rx="1"></rect>
+                <rect id="Rectangle-3" fill="#C9C9C9" x="139" y="15" width="21" height="14" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
