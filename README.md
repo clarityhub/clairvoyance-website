@@ -1,7 +1,5 @@
 # Website
 
-[![build status](https://gitlab.com/clairvoyance/website/badges/master/build.svg)](https://gitlab.com/clairvoyance/website/commits/master)
-
 This is the Jekyll based Clarity Hub website.
 
 ## Getting Started
